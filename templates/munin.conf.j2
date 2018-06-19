@@ -1,0 +1,8 @@
+{{ ansible_managed | comment() }}
+
+{% for host in groups[munin_node_group] %}
+[{{ host }}]
+    address {{ hostvars[host]['munin_node_host'] }}
+    use_node_name yes
+
+{% endfor %}

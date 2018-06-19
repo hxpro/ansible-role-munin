@@ -1,0 +1,3 @@
+---
+munin_includedir: /etc/munin/conf.d
+munin_install_path: /var/www/html/munin

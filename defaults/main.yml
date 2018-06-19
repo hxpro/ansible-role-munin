@@ -1,0 +1,7 @@
+---
+munin_server_name: munin
+munin_node_group: all
+munin_allow_from:
+  - 127.0.0.1/32
+# munin_ssl_cert
+# munin_ssl_cert_key
